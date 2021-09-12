@@ -4,6 +4,14 @@ this is just a docker wrapper around the [Carrot 2](https://github.com/carrot2/c
 
 This tool provides a REST API
 
+## Configuration
+
+requires a `.env` file at the root of the project folder, containing the following vars:
+
+|Variable|Meaning|
+|-|-|
+|HEAP_SIZE|the Java heap size, for example 2g|
+
 ## Getting started
 ```console
 
