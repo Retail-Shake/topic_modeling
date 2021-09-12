@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.carrot2.lang</groupId>
+  <artifactId>carrot2-lang-polish</artifactId>
+  <version>4.3.1</version>
+  <name>Carrot2 (polish)</name>
+  <description>Carrot2 Text Clustering Library</description>
+  <url>https://project.carrot2.org</url>
+  <inceptionYear>2001</inceptionYear>
+  <organization>
+    <name>Carrot Search s.c.</name>
+    <url>https://www.carrotsearch.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>https://www.carrot2.org/carrot2.LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stanislaw.osinski</id>
+      <name>Stanisław Osiński</name>
+      <email>stanislaw.osinski@carrotsearch.com</email>
+    </developer>
+    <developer>
+      <id>dawid.weiss</id>
+      <name>Dawid Weiss</name>
+      <email>dawid.weiss@carrotsearch.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:carrot2/carrot2.git</connection>
+    <developerConnection>scm:git:git@github.com:carrot2/carrot2.git</developerConnection>
+    <url>https://github.com/carrot2/carrot2</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.carrot2</groupId>
+      <artifactId>carrot2-core</artifactId>
+      <version>4.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.carrot2</groupId>
+      <artifactId>morfologik-polish</artifactId>
+      <version>2.1.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

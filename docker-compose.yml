@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  topic_clustering:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - HEAP_SIZE=${HEAP_SIZE}
+    image: "retail_shake/topic_modeling:${TAG}"
+    ports:
+      - 1000:8080
+

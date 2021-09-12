@@ -1,0 +1,17 @@
+2021-09-10 13:52:10,538 DEBUG console: Deploying context 'frontend' at: /frontend.   [main]
+2021-09-10 13:52:10,541 DEBUG console: Deploying context 'root' at: /.   [main]
+2021-09-10 13:52:10,541 DEBUG console: Deploying context 'doc' at: /doc.   [main]
+2021-09-10 13:52:10,542 DEBUG console: Deploying context 'service' at: /service.   [main]
+2021-09-10 13:52:10,542 DEBUG console: Deploying context 'javadoc' at: /javadoc.   [main]
+2021-09-10 13:52:11,033 DEBUG console: Will try to load language resources from context path: /service/resources/   [main]
+2021-09-10 13:52:11,256 DEBUG console: Languages supported by algorithm 'Bisecting K-Means': Arabic, Armenian, Brazilian, Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hindi, Hungarian, Indonesian, Irish, Italian, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Thai, Turkish   [main]
+2021-09-10 13:52:11,256 DEBUG console: Languages supported by algorithm 'Lingo': Arabic, Armenian, Brazilian, Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hindi, Hungarian, Indonesian, Irish, Italian, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Thai, Turkish   [main]
+2021-09-10 13:52:11,257 DEBUG console: Languages supported by algorithm 'STC': Arabic, Armenian, Brazilian, Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hindi, Hungarian, Indonesian, Irish, Italian, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Thai, Turkish   [main]
+2021-09-10 13:52:11,257 INFO  console: DCS context initialized [algorithms: [Bisecting K-Means, Lingo, STC], templates: [frontend-default, lingo, stc, bkmeans]]   [main]
+2021-09-10 13:52:11,300 INFO  console: Service started on port 8080.   [main]
+2021-09-10 13:52:11,302 INFO  console: The following contexts are available:
+  |   http://localhost:8080/          DCS Root
+  |   http://localhost:8080/doc       Documentation
+  |   http://localhost:8080/frontend  End-user apps
+  |   http://localhost:8080/javadoc   Java API Javadoc
+  |   http://localhost:8080/service   REST API   [main]
