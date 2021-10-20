@@ -29,5 +29,4 @@ root@prod:/home/docker/search_api# curl -X POST 'http://localhost:1000/service/c
   ]
 }'
 
-
 ```
